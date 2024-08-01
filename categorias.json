@@ -1,0 +1,32 @@
+[
+        {
+            "nombre": "Rostro",
+            "id": 1,
+            "icono": "https://i.pinimg.com/564x/3c/35/76/3c3576000387f2276701f32d114d9586.jpg"
+        },
+        {
+            "nombre": "Cuidado Facial",
+            "id": 2,
+            "icono": "https://cdn-icons-png.flaticon.com/512/2770/2770749.png"
+        },
+        {
+            "nombre": "Ojos",
+            "id": 3,
+            "icono": "https://icon-library.com/images/beauty-icon/beauty-icon-28.jpg"
+        },
+        {
+            "nombre": "Cuerpo",
+            "id": 5,
+            "icono": "https://i.pinimg.com/originals/46/ef/37/46ef37058feb33f4c0a79ca1be5e2570.png"
+        },
+        {
+            "nombre": "Manos",
+            "id": 6,
+            "icono": "https://cdn-icons-png.flaticon.com/512/80/80405.png"
+        },
+        {
+            "nombre": "Labios",
+            "id": 7,
+            "icono": "https://cdn-icons-png.flaticon.com/512/160/160562.png?w=740&t=st=1654800019~exp=1654800619~hmac=dc6972996427f167328d61484ee6b8982fd9119ac115ee88ad0cca60ac055103"
+        }
+    ]
