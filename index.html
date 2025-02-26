@@ -1,0 +1,76 @@
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <title>API JSON MANAGER</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="titulo">
+                <label> API JSON MANAGER </label>
+            </div>
+            <div class="linea-divisoria"></div>
+            <div class="logo-header">
+                <label class="icon"><i class="fas fa-laptop-code"></i></label>
+            </div>
+            <div class="linea-divisoria"></div>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <h1>Información</h1>
+            <p>Esta una herramienta que te permite visualizar y manipular archivos JSON de manera
+                sencilla.</p>
+            <p>Con esto se puede simular el llamado de una API y así poder construir aplicaciones de testeo.</p>
+            <p>Para comenzar, selecciona un proyecto de la lista de abajo.</p>
+            <p>⸜(｡˃ ᵕ ˂ )⸝♡</p>
+        </div>
+        <div class="container">
+            <h1>Proyectos</h1>
+            <ul id="principal">
+                <li onclick="myFunction('Your')">
+                    <label class="titulo-carpeta">Your Beauty</label>
+                    <ul class="interno" id="Your" style="display: none;">
+                        <li>
+                            <a href="./your-beauty/categorias.json">/categorias</a>
+                        </li>
+                        <li>
+                            <a href="./your-beauty/productos.json">/productos</a>
+                        </li>
+                    </ul>
+                </li>
+                <li onclick="myFunction('Game')">
+                    <label class="titulo-carpeta">My Games</label>
+                    <ul class="interno" id="Game" style="display: none;">
+                        <li>
+                            Work in progress...
+                        </li>
+                        <!-- <li>
+                            <a href="./my-games/juegos.json">/juegos</a>
+                        </li>
+                        <li>
+                            <a href="./my-games/plataformas.json">/plataformas</a>
+                        </li> -->
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </main>
+
+    <footer>
+        <h3>
+            Diseñado con ♥️ por <a style="text-decoration: none;" href="https://github.com/mloaizau">@mloaizau</a> 🌸
+        </h3>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
